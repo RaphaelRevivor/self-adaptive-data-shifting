@@ -1,7 +1,7 @@
 # self-adaptive-data-shifting
 kNN based self-adaptive data shifting for one-class support vector machine hyperparameter selection
 
-This code is written based on the methods described in [1]. The methods include two parts, "Negative shifting" to generate pseudo outliers, and "Positive shifting" to generate pseudo target data.
+This code is written based on the methods described in [#1][i1]. The methods include two parts, "Negative shifting" to generate pseudo outliers, and "Positive shifting" to generate pseudo target data.
 
 In the code, a "banana" training dataset from https://www.openml.org/d/1460 is used.
 
@@ -12,4 +12,4 @@ In the code, a "banana" training dataset from https://www.openml.org/d/1460 is u
 * matplotlib 2.2.x or 3.0
 
 ## References
-[1] Wang, S., Liu, Q., Zhu, E., Porikli, F., & Yin, J. (2018). Hyperparameter selection of one-class support vector machine by self-adaptive data shifting. Pattern Recognition, 74, 198-211.
+[i1] Wang, S., Liu, Q., Zhu, E., Porikli, F., & Yin, J. (2018). Hyperparameter selection of one-class support vector machine by self-adaptive data shifting. Pattern Recognition, 74, 198-211.
