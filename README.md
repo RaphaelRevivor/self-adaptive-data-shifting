@@ -1,5 +1,5 @@
 # self-adaptive-data-shifting
-kNN based self-adaptive data shifting for one-class support vector (OCSVM) machine hyperparameter selection
+kNN based self-adaptive data shifting for one-class support vector machine (OCSVM, one class SVM) hyperparameter selection
 
 This code is written based on the methods described in [1]. The methods include two parts, "Negative shifting" to generate pseudo outliers, and "Positive shifting" to generate pseudo target data.
 
